@@ -25,6 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.backgroundColor = .clear
         window.titlebarAppearsTransparent = true
         window.titleVisibility = .hidden
+        window.ignoresMouseEvents = true
         window.center()
         window.makeKeyAndOrderFront(nil)
         return window

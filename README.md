@@ -5,6 +5,7 @@ A native macOS app that creates empty, transparent, resizable windows. Intended 
 ## Features
 
 - Transparent windows that show your desktop wallpaper
+- Click-through: mouse events pass through to apps behind the window
 - Multiple windows supported
 - Single-instance: re-running the binary signals the existing instance to create a new window without stealing focus
 - Quits automatically when the last window is closed
